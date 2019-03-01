@@ -1,0 +1,20 @@
+{
+  "name": "basic-shopify-app",
+  "version": "1.0.0",
+  "description": "Basic shopify app following shopify tutorial",
+  "main": "index.js",
+  "repository": "https://github.com/Squishy123/basic-shopify-app.git",
+  "author": "Christian Wang <christian.gnaw@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "scripts" : {
+    "dev" : "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "yarn run build && yarn run export"
+  }
+}
